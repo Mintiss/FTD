@@ -1,0 +1,22 @@
+{
+  "name": "ftd",
+  "version": "1.0.0",
+  "description": "Smart contract opening script",
+  "main": "FTD.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mintiss/FTD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mintiss/FTD/issues"
+  },
+  "homepage": "https://github.com/Mintiss/FTD#readme",
+  "dependencies": {
+    "open": "^8.4.0"
+  }
+}
