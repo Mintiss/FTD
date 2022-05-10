@@ -76,8 +76,9 @@ explorers.set("astr", "https://blockscout.com/astar/address/");
 explorers.set("kard", "https://explorer.kardiachain.io/address/");
 explorers.set("opti", "https://optimistic.etherscan.io/address/");
 explorers.set("stak", "https://explorer.stacks.co/txid/");
-explorers.set("auro", "https://aurorascan.dev/address/");
 explorers.set("hede", "https://v2.explorer.kabuto.sh/id/");
+explorers.set("auro", "https://aurorascan.dev/address/");
+explorers.set("thet", "https://explorer.thetatoken.org/account/");
 explorers.set(
   "milk",
   "https://explorer-mainnet-cardano-evm.c1.milkomeda.com/address/"
