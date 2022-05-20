@@ -77,6 +77,7 @@ explorers.set("kard", "https://explorer.kardiachain.io/address/");
 explorers.set("opti", "https://optimistic.etherscan.io/address/");
 explorers.set("stak", "https://explorer.stacks.co/txid/");
 explorers.set("hede", "https://v2.explorer.kabuto.sh/id/");
+explorers.set("ziql", "https://viewblock.io/zilliqa/address/");
 explorers.set("auro", "https://aurorascan.dev/address/");
 explorers.set("thet", "https://explorer.thetatoken.org/account/");
 explorers.set(
