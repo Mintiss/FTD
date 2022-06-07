@@ -6,10 +6,7 @@ let addresses = [];
 let launched = false;
 let explorers = new Map();
 const line = () => {
-  console.log(
-    "\x1b[34m%s\x1b[0m",
-    "====================================================================================================="
-  );
+  console.log("\x1b[34m%s\x1b[0m", "=====================");
 };
 
 const logoArt = () => {
@@ -69,7 +66,6 @@ explorers.set("cro", "https://cronos.crypto.org/explorer/address/");
 explorers.set("mnbm", "https://moonscan.io/address/");
 explorers.set("shdn", "https://shiden.subscan.io/account/");
 explorers.set("osis", "https://explorer.emerald.oasis.dev/address/");
-explorers.set("shdn", "https://shiden.subscan.io/account/");
 explorers.set("celo", "https://explorer.celo.org/address/");
 explorers.set("rsk", "https://explorer.rsk.co/address/");
 explorers.set("astr", "https://blockscout.com/astar/address/");
@@ -113,6 +109,7 @@ const prompt = () => {
 
       rl.on("close", () => {
         console.log("\x1b[32m%s\x1b[0m", "Opening contracts...");
+        line();
         addresses.map((addr) => {
           open(explorers.get(protocol.toLowerCase()) + addr, function (err) {
             if (err) throw err;
